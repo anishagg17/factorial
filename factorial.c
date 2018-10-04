@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
-{int x,i;
-scanf("%d",&x);
-int prod=1;
-for(i=x;i>=1;i--)
-{prod=prod*i;
-}
-printf("factorial %d",prod);
-}
+
+{
+    int n,i;
+    scanf("%d",&n);
+    int prod=1;
+    for(i=2;i<n;i++)
+        prod=prod*i;
+    printf("factorial %d",prod);
