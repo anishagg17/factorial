@@ -1,7 +1,7 @@
 #include<stdio.h>
 int factorial(int);
 int main()
-
+//finding factorial of a number
 {    int n;
     scanf("%d",&n);
     printf("factorial %d",factorial(n));
